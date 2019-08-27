@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mines</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    
+    <div id="root">
+    
+        <div class='win_or_lose'>
+            <div>
+                <p id = 'message' class="text"></p>
+                <div class="svg-wrapper">
+                    <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                      <rect id="shape" height="40" width="150" />
+                      <div id="text">
+                        <a href="" onclick="newGame()"><span class="spot"></span>New Game</a>
+                      </div>
+                    </svg>
+                  </div>
+            </div>    
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
