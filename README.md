@@ -6,4 +6,4 @@ Shashki
 ![Shashki](/Shashki/screenshots/Shashki.png)
 
 X_O_NxN
-![X_O](/X_O/screenshots/X_O.png)
+![X_O](/X_O_NxN/screenshots/X_O.png)
